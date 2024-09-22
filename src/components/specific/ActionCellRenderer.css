@@ -1,0 +1,21 @@
+.action-icons {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.action-icon {
+    cursor: pointer;
+    font-size: 18px;
+    margin: 0 5px;
+    color: #4CAF50;
+}
+
+.action-icon:hover {
+    color: #3e8e41;
+}
+
+.action-icon.disabled {
+    pointer-events: none;
+    opacity: 0.5;
+}

@@ -1,0 +1,41 @@
+/* QNDataGrid.css */
+
+/* Default header cell background color */
+.ag-theme-balham .ag-header-cell {
+    background-color: #495057;
+    /* Change to your desired default header background color */
+    color: #ece4e4;
+    /* Change to your desired default header text color */
+}
+
+/* Header cell hover background color */
+.ag-theme-balham .ag-header-cell:hover {
+    background-color: #495057;
+    color: #100e0e;
+    /* Change to your desired hover background color */
+}
+
+/* Header cell focus background color */
+.ag-theme-balham .ag-header-cell:focus {
+    background-color: #495057;
+    /* Same as hover background color */
+    outline: none;
+    /* Remove the default outline */
+}
+
+/* Transition effect for smooth background color change */
+.ag-theme-balham .ag-header-cell {
+    transition: background-color 0.3s ease;
+}
+
+.ag-theme-balham {
+    --ag-foreground-color: rgb(0, 0, 0);
+    --ag-background-color: rgb(255, 255, 255);
+    --ag-header-foreground-color: rgb(10, 9, 9);
+    --ag-header-background-color: rgb(241, 241, 241);
+    --ag-odd-row-background-color: rgba(141, 133, 133, 0.03);
+    --ag-header-column-resize-handle-color: rgb(8, 6, 8);
+    --ag-active-color: rgb(255, 255, 255);
+    --ag-font-size: 14px;
+    --ag-font-family: Roboto;
+}

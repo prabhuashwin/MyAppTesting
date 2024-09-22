@@ -1,0 +1,22 @@
+.qn-details {
+    margin-top: 20px;
+}
+
+.qn-details div {
+    margin-bottom: 10px;
+}
+
+.qn-details label {
+    font-weight: bold;
+    margin-right: 10px;
+}
+
+/* QNDataGrid.css */
+.ag-theme-alpine .ag-header-cell:hover {
+    background-color: #e0e0e0; /* Change to your desired hover color */
+}
+
+.ag-theme-alpine .ag-header-cell {
+    transition: background-color 0.3s ease; /* Smooth transition effect */
+}
+

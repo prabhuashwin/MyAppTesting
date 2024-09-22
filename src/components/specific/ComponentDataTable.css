@@ -1,0 +1,48 @@
+/* Add button styling */
+.add-button-container {
+  margin-bottom: 20px;
+}
+
+.add-button {
+  background-color: #28a745;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  padding: 10px 15px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.add-button:hover {
+  background-color: #8c8c8c;
+}
+
+/* Form for adding a new component */
+.add-component-form {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  margin-bottom: 20px;
+}
+
+.add-component-form input,
+.add-component-form select {
+  padding: 10px;
+  border-radius: 4px;
+  border: 1px solid #ccc;
+  font-family: "Times New Roman", Times, serif;
+}
+
+.add-component-form button {
+  background-color: #28a745;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  padding: 10px 15px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.add-component-form button:hover {
+  background-color: #218838;
+}

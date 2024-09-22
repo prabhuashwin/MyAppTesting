@@ -1,0 +1,33 @@
+.user-info .dropdown-header {
+    font-weight: bold;
+    background-color: #f8f9fa;
+}
+
+.user-info .roles-header {
+    background-color: #f1f1f1;
+    font-weight: bold;
+    cursor: default;
+}
+
+.user-info .dropdown-item {
+    padding: 8px 16px;
+}
+
+.user-info .logout-item {
+    background-color: #ce1126;
+    color: white;
+}
+
+.user-info .logout-item:hover {
+    background-color: #ce1126;
+}
+.user-info .text-color {
+    color: whitesmoke;
+    border-block-color:#ce1126;
+}
+.user-info .divider-color {
+    background-color: #ce1126;
+}
+.btn-secondary{
+    --bs-btn-border-color:#ce1126;
+}

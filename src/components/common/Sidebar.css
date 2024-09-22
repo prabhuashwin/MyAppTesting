@@ -1,0 +1,118 @@
+.sidebar {
+    position: fixed;
+    left: 0;
+    top: 0;
+    bottom: 0;
+    width: 220px;
+    background-color: #333;
+    color: white;
+    transition: width 0.3s;
+    overflow: hidden;
+    z-index: 1000;
+}
+
+.sidebar.collapsed {
+    width: 80px;
+}
+
+.sidebar .sidebar-logo {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px;
+}
+
+.sidebar .sidebar-logo img {
+    width: 100%;
+    height: auto;
+    max-width: 150px;
+    transition: max-width 0.3s;
+}
+
+.sidebar.collapsed .sidebar-logo img {
+    max-width: 40px;
+}
+
+.sidebar .toggle-button {
+    background-color: #333;
+    color: white;
+    border: none;
+    cursor: pointer;
+    padding: 5px;
+    z-index: 1001;
+    position: absolute; /* Ensure the button is positioned correctly */
+    top: 10px;
+    right: -20px; /* Place the button slightly outside the sidebar when collapsed */
+    transform: translateX(50%); /* Center the button horizontally relative to its own width */
+    border-radius: 50%;
+}
+
+.sidebar .sidebar-nav {
+    padding: 20px;
+}
+
+.sidebar .sidebar-nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.sidebar .sidebar-nav ul li {
+    padding: 10px 0;
+}
+
+.sidebar .sidebar-nav ul li a {
+    color: white;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+}
+
+.sidebar .sidebar-nav ul li a .icon {
+    margin-right: 10px;
+    font-size: 20px;
+}
+
+.sidebar .sidebar-nav ul li a .nested-icon {
+    margin-right: 5px;
+    font-size: 16px;
+}
+
+.sidebar .sidebar-nav ul li .nested {
+    padding-left: 20px;
+}
+
+.sidebar .arrow {
+    margin-left: auto;
+    transition: transform 0.3s;
+}
+
+.sidebar .arrow.open {
+    transform: rotate(90deg);
+}
+
+.sidebar.collapsed .sidebar-nav ul li {
+    text-align: center;
+}
+
+.sidebar.collapsed .sidebar-nav ul li a .nav-text {
+    display: none;
+}
+
+.sidebar.collapsed .sidebar-nav ul li .arrow {
+    display: none;
+}
+
+.sidebar.collapsed .nested {
+    display: none;
+}
+
+.sidebar .sidebar-section {
+    padding: 10px 0;
+    font-size: 14px;
+    color: #aaa;
+    text-transform: uppercase;
+}
+
+.sidebar .sidebar-nav ul li.active > a {
+    background-color: #444;
+}

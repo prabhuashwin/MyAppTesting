@@ -1,0 +1,57 @@
+.container {
+  padding: 20px;
+}
+
+.grid-container {
+  height: 600px;
+  width: 100%;
+  background-color: transparent;
+  font-family: 'Roboto', sans-serif;
+}
+
+.edit-button {
+  background-color: #d80c0c;
+  color: white;
+  border: none;
+  padding: 5px 10px;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+.edit-button:hover {
+  background-color: #0056b3;
+}
+
+/* Default header cell background color */
+.ag-theme-alpine .ag-header-cell {
+  background-color: #495057; /* Change to your desired default header background color */
+  color: #fff; /* Change to your desired default header text color */
+}
+
+/* Header cell hover background color */
+.ag-theme-alpine .ag-header-cell:hover {
+  background-color: #495057; /* Change to your desired hover background color */
+}
+
+/* Header cell focus background color */
+.ag-theme-alpine .ag-header-cell:focus {
+  background-color: #495057; /* Same as hover background color */
+  outline: none; /* Remove the default outline */
+}
+
+/* Transition effect for smooth background color change */
+.ag-theme-alpine .ag-header-cell {
+  transition: background-color 0.3s ease;
+}
+
+.ag-theme-quartz {
+  --ag-foreground-color: rgb(0, 0, 0);
+  --ag-background-color: rgb(255, 255, 255);
+  --ag-header-foreground-color: rgb(10, 9, 9);
+  --ag-header-background-color: rgb(241, 241, 241);
+  --ag-odd-row-background-color: rgb(0, 0, 0, 0.03);
+  --ag-header-column-resize-handle-color: rgb(126, 46, 132);
+
+  --ag-font-size: 17px;
+  --ag-font-family: monospace;
+}

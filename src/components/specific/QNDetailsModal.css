@@ -1,0 +1,95 @@
+/* QNDetailsModal.css */
+.custom-modal {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    right: auto;
+    bottom: auto;
+    transform: translate(-50%, -50%);
+    max-width: 1200px;
+    width: 90%;
+    background: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    outline: none;
+    transition: opacity 0.3s ease, transform 0.3s ease;
+}
+
+.custom-overlay {
+    background: rgba(0, 0, 0, 0.75);
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: opacity 0.3s ease;
+}
+
+.qn-details {
+    margin-top: 20px;
+}
+
+.qn-details .form-group {
+    margin-bottom: 15px;
+}
+
+.qn-details .form-group label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+.qn-details .form-group input,
+.qn-details .form-group select {
+    width: 100%;
+    padding: 8px;
+    box-sizing: border-box;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    background-color: lightgrey;
+}
+
+.qn-details .form-group select {
+    background-color: white;
+}
+
+.qn-details .row {
+    display: flex;
+    justify-content: space-between;
+}
+
+.qn-details .col {
+    flex: 1;
+    padding: 0 10px;
+}
+
+.modal-footer {
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 20px;
+}
+
+.modal-footer .btn {
+    padding: 10px 20px;
+    font-size: 16px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.modal-footer .btn-primary {
+    background-color: #ce1126;
+    color: white;
+}
+
+.modal-footer .btn-primary:hover {
+    background-color: lightgrey;
+}
+
+.select-container {
+    display: flex;
+    gap: 10px;
+}

@@ -1,0 +1,41 @@
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #343a40;
+    color: white;
+    padding: 10px 20px;
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+}
+
+/* Logo Styling */
+.header .logo {
+    text-align: left; /* Align logo to the left */
+}
+
+.header .logo h1 {
+    margin: 0;
+}
+
+/* Centered Text Styling */
+.header .center-text {
+    flex: 1;
+    text-align: center; /* Center-align the text */
+}
+
+.header .center-text h2 {
+    margin: 0;
+    font-size: 18px;
+    font-weight: normal;
+}
+
+/* User Info Styling */
+.header .user-info {
+    text-align: right;
+}
+
+.header .user-info p {
+    margin: 0;
+}

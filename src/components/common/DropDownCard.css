@@ -1,0 +1,29 @@
+.dropdown-card {
+    position: absolute;
+    top: 100%;
+    left: 0;
+    background-color: #0d0e0e;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 4px;
+    z-index: 1000;
+    width: 200px;
+    padding: 16px;
+}
+
+.dropdown-header {
+    margin-bottom: 8px;
+    font-weight: bold;
+}
+
+.dropdown-item {
+    padding: 8px 0;
+    cursor: pointer;
+}
+
+.dropdown-item:hover {
+    background-color: #100707;
+}
+
+.logout {
+    color: red;
+}

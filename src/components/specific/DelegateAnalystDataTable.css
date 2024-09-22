@@ -1,0 +1,91 @@
+/* General container and grid styles */
+.container {
+  margin: 20px;
+}
+
+.grid-container {
+  height: 500px;
+  width: 100%;
+}
+
+/* Header cell styles */
+.header-cell {
+  background-color: #495057; /* Matches theme's header background */
+  color: #000; /* Matches theme's header text color */
+  font-weight: bold;
+  text-align: center;
+  transition: background-color 0.3s ease; /* Smooth transition */
+}
+
+.header-cell:hover,
+.header-cell:focus {
+  background-color: #495057; /* Matches theme's hover/focus color */
+  outline: none; /* Remove default outline */
+}
+
+/* Cell styles */
+.cell {
+  text-align: center;
+  padding: 10px;
+}
+
+/* Button styles */
+.edit-button {
+  background-color: #cb0505;
+  border: none;
+  color: white;
+  padding: 5px 10px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 14px;
+  margin: 4px 2px;
+  cursor: pointer;
+  border-radius: 5px;
+  transition-duration: 0.4s;
+}
+
+.edit-button:hover {
+  background-color: #8c8c8c; /* Adjusted hover background color */
+  color: white;
+}
+
+/* AG Grid specific theme styles */
+.ag-theme-alpine .ag-header-cell {
+  background-color: #495057; /* Matches custom header background */
+  color: #000; /* Matches custom header text color */
+  transition: background-color 0.3s ease;
+}
+
+.ag-theme-alpine .ag-header-cell:hover {
+  background-color: #495057; /* Matches custom hover background */
+}
+
+.ag-theme-alpine .ag-header-cell:focus {
+  background-color: #495057; /* Same as hover/focus color */
+  outline: none;
+}
+
+.ag-theme-alpine .ag-header {
+  font-size: 16px; /* Font size for header */
+}
+
+.ag-theme-alpine .ag-row {
+  font-size: 14px; /* Font size for rows */
+  background-color: rgba(0, 0, 0, 0.03); /* Matches theme's odd row background */
+}
+
+.ag-theme-alpine .ag-paging-panel {
+  font-size: 14px; /* Font size for paging panel */
+}
+
+.ag-theme-quartz {
+  --ag-foreground-color: rgb(0, 0, 0);
+  --ag-background-color: rgb(255, 255, 255);
+  --ag-header-foreground-color: rgb(10, 9, 9);
+  --ag-header-background-color: rgb(241, 241, 241);
+  --ag-odd-row-background-color: rgba(0, 0, 0, 0.03);
+  --ag-header-column-resize-handle-color: rgb(126, 46, 132);
+  --ag-font-size: 17px;
+  --ag-font-family: monospace;
+}
